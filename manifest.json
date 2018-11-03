@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+
+  "name": "Smart News",
+  "description": "Scans the article you are reading and provides alternate sources to avoid false information and bias.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "image.png",
+    "default_popup": "template/popup.html"
+  },
+
+  "commands": {
+    "toggle_extension": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+5",
+        "mac": "Alt+L"
+      },
+      "description": "Toggle Smart News",
+      "global": true
+    }
+  },
+
+  "background": {
+    "scripts": [ "background.js" ],
+    "persistent": false
+  }
+
+} 
