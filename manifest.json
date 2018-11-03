@@ -11,13 +11,10 @@
   },
 
   "commands": {
-    "toggle_extension": {
+    "_execute_browser_action": {
       "suggested_key": {
-        "default": "Ctrl+Shift+5",
-        "mac": "Alt+L"
-      },
-      "description": "Toggle Smart News",
-      "global": true
+        "default": "Ctrl+Shift+5"
+      }
     }
   },
 
